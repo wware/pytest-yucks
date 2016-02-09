@@ -259,7 +259,7 @@ def test_mytest(monkeypatch):
     assert x == '/abc/.ssh'
 
 
-FAKE_TIME = datetime.datetime(2020, 12, 25, 17, 05, 55)
+FAKE_TIME = datetime.datetime(2020, 12, 25, 17, 5, 55)
 
 
 @pytest.fixture
