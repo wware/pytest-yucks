@@ -95,6 +95,8 @@ def test_warning():
 #                                                           #
 #                      Py.test fixtures                     #
 #                                                           #
+#       http://doc.pytest.org/en/latest/fixture.html        #
+#                                                           #
 #############################################################
 
 
@@ -189,11 +191,12 @@ def test_setup_and_teardown(some_dumb_resource):
 #                                                           #
 #                   Parameterized fixtures                  #
 #                                                           #
+# http://doc.pytest.org/en/latest/example/parametrize.html  #
+#                                                           #
 #############################################################
 
 
 @pytest.fixture(params=[
-    # tuple with (input, expectedOutput)
     (3, 4, 5, True),    # legitimate Pythagorean triplets
     (5, 12, 13, True),
     (8, 15, 17, True),
@@ -238,6 +241,8 @@ def test_python_eval2(input, expected):
 #############################################################
 #                                                           #
 #                         Monkeypatch                       #
+#                                                           #
+#     http://doc.pytest.org/en/latest/monkeypatch.html      #
 #                                                           #
 #############################################################
 
