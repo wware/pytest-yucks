@@ -1,7 +1,7 @@
 Python Testing Yucks and Giggles
 ================================
 
-![Funny picture](https://i1.wp.com/blog.ruberto.com/wp-content/uploads/2013/05/vaderLackofTests.jpg)
+![Funny picture](https://cloud.githubusercontent.com/assets/246731/22578501/416c69c0-e997-11e6-9865-55d06e600845.jpg)
 
 There are subdirectories covering specific Python test frameworks (pytest, doctest, unittest,
 etc). Here are some links about Python testing in general.
@@ -44,7 +44,7 @@ The economics of software testing
 ---------------------------------
 
 I am a big advocate of extensive developer testing. You probably know the rationale, but just to review,
-[bugs are cheaper to fix when they are caught earlier](http://faculty.ksu.edu.sa/ghazy/Cost_MSc/R6.pdf)
+[bugs are cheaper to fix when they are caught earlier](http://www.agilemodeling.com/essays/costOfChange.htm)
 and often the earliest quickest way to catch them is while you are developing the code. Some bugs can be
 caught while you're still just thinking about how to develop the code, but testing encourages good habits
 in that phase as well.
